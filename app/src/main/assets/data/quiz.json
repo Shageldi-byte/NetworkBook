@@ -1,0 +1,673 @@
+[
+    {
+        "question":"Which of the following regenerates the signal and broadcasts the signal to every computer connected to it?",
+        "a":"Hub",
+        "b":"Switch",
+        "c":"Router",
+        "d":"Firewall",
+        "answer":"a",
+        "unit":1
+    },
+    {
+        "question":" Which of the following is not a central connecting device?",
+        "a":"Hub",
+        "b":"Switch",
+        "c":"SOHO router",
+        "d":"Windows 10 client",
+        "answer":"d",
+        "unit":1
+    },
+    {
+        "question":" When installing a network adapter to a computer so that it can be connected to a network that uses twisted-pair cabling, which type of port must be used by the network adapter???",
+        "a":"RJ-11",
+        "b":"RJ-45",
+        "c":"RG-58",
+        "d":"Fiber optic",
+        "answer":"b",
+        "unit":1
+    },
+    {
+        "question":"In Windows 10, which of the following should be used to access the properties of a network adapter?",
+        "a":"Device Manager",
+        "b":"Ping",
+        "c":"Advanced Firewall",
+        "d":"Task Manager",
+        "answer":"a",
+        "unit":1
+    }
+    ,{
+        "question":"When connecting a computer’s network adapter to a switch—with the desire for the connection to be able to send and receive data simultaneously—which type of connection is required?",
+        "a":"Half-duplex",
+        "b":"Full-duplex",
+        "c":"Simplex",
+        "d":"100 Mbps",
+        "answer":"b",
+        "unit":1
+    },{
+        "question":" When connecting a computer at a rate of 100,000,000 bits per second, which of the following should be the speed of the network adapter being installed?",
+        "a":"10 Mbps",
+        "b":"100 MB/s",
+        "c":"100 Mbps",
+        "d":"1,000 Mbps",
+        "answer":"c",
+        "unit":1
+    },{
+        "question":"When connecting to a router that has the IP address 192.168.1.100 on a standard, default Class C network using the subnet mask 255.255.255.0, which of the following is a valid IP address for the network adapter?",
+        "a":"192.168.0.1",
+        "b":"192.168.1.1",
+        "c":"192.168.100.1",
+        "d":"192.168.1.100",
+        "answer":"b",
+        "unit":1
+    },{
+        "question":" After installing a network adapter and configuring an IP address and subnet mask, which command can be used to verify that the IP address is configured and listed properly?",
+        "a":"Ping",
+        "b":"Tracert",
+        "c":"CMD",
+        "d":"Ipconfig",
+        "answer":"d",
+        "unit":1
+    },{
+        "question":"Which of the following commands enables pinging your own computer to see if it is operational?",
+        "a":"ping localclient",
+        "b":"ping 128.0.0.1",
+        "c":"ping loopback",
+        "d":"ping network adapter",
+        "answer":"c",
+        "unit":1
+    },{
+        "question":" Which of the following types of networks should be used to connect a computer to a group of hosts that have been segmented from the regular network?",
+        "a":"LAN",
+        "b":"WLAN",
+        "c":"WAN",
+        "d":"VLAN",
+        "answer":"d",
+        "unit":1
+    },{
+        "question":"How many layers are incorporated in the OSI model communications subnetwork?",
+        "a":"2",
+        "b":"7",
+        "c":"3",
+        "d":"4",
+        "answer":"c",
+        "unit":2
+    },{
+        "question":"Which of the following layers deals with the serial transfer of data?",
+        "a":"Physical",
+        "b":"Data Link",
+        "c":"Network",
+        "d":"Session",
+        "answer":"a",
+        "unit":2
+    },{
+        "question":"When installing a router on a company’s network that will allow access to the Internet, the device will reside on which layer of the OSI model?",
+        "a":"Physical",
+        "b":" Data Link",
+        "c":"Network",
+        "d":"Transport",
+        "answer":"c",
+        "unit":2
+    },{
+        "question":"When executing the netstat –an command in the Command Prompt window, many connections are made that say TCP in the leftmost column. Which layer of the OSI model is TCP referring to?",
+        "a":"Layer 1",
+        "b":"Layer 2",
+        "c":"Layer 3",
+        "d":"Layer 4",
+        "answer":"d",
+        "unit":2
+    },{
+        "question":"A problem is suspected with a computer’s network adapter and its ability to send the correct frames of data that correspond with the network architecture used by the rest of the computers. Which layer should be used as a troubleshooting starting point?",
+        "a":"Physical",
+        "b":"Data Link",
+        "c":"Network",
+        "d":"Transport",
+        "answer":"b",
+        "unit":2
+    },{
+        "question":"A standard such as 100BASE-T refers to which OSI layer?",
+        "a":"Physical",
+        "b":"Data Link",
+        "c":"Network",
+        "d":"Transport",
+        "answer":"a",
+        "unit":2
+    },{
+        "question":"At an organization, almost all users connect to websites with Internet Explorer. They usually type domain names such as www.microsoft.com. Which protocol is initiated by default hen they press Enter after typing the domain name?",
+        "a":"FTP",
+        "b":"HTTPS",
+        "c":"HTTP",
+        "d":"HTP",
+        "answer":"c",
+        "unit":2
+    },{
+        "question":"A director has given permission to access his computer. To find out the MAC address of the director’s computer, the Command Prompt application is accessed. Which command should  be used to see the MAC address?",
+        "a":"ipconfig",
+        "b":"ipconfig/all",
+        "c":"arp",
+        "d":"netstat -an",
+        "answer":"b",
+        "unit":2
+    },{
+        "question":"Which of the following commands should be used to view all of the MAC addresses of computers that a particular user’s computer has connected to in the recent past?",
+        "a":"ping 127.0.0.1",
+        "b":"netstat -a",
+        "c":"arp -a",
+        "d":"arp -s",
+        "answer":"c",
+        "unit":2
+    },{
+        "question":"Which of the following tools should be used to capture and analyze packets on a server? (Choose the two best answers.)",
+        "a":"Protocol analyzer",
+        "b":"Command Prompt",
+        "c":"netstat -an",
+        "d":"Wireshark",
+        "answer":"a,d",
+        "unit":2    
+    },{
+        "question":"When installing 200 twisted-pair cable drops, which wiring standard should be used?",
+        "a":"568A",
+        "b":"BOGB",
+        "c":"568B",
+        "d":"586B",
+        "answer":"c",
+        "unit":3
+    },{
+        "question":"To connect two laptops directly to each other by way of their network adapters, which kind of cable should be used?",
+        "a":"Rolled cable",
+        "b":"Crossover cable",
+        "c":"Straight-through cable",
+        "d":"Patch cable",
+        "answer":"b",
+        "unit":3
+    },{
+        "question":"When making a specialized wired connection for a server that will operate on an Ethernet network, which two wiring colors should be used?",
+        "a":"Orange and green",
+        "b":"Orange and blue",
+        "c":"Orange and brown",
+        "d":"White and blue",
+        "answer":"a",
+        "unit":3
+    },{
+        "question":"One of the network connections to a programmer’s computer has failed. She suspects it is the twisted-pair cable. Which tool should be used to test for any problems in the cable?",
+        "a":"Patch tester",
+        "b":"Wireshark",
+        "c":"Continuity tester",
+        "d":"Fox and hound",
+        "answer":"c",
+        "unit":3
+    },{
+        "question":"You need to connect three new supercomputers to the backbone of the network that runs at 1 Gbps. Which type of cable will be sufficient for this task?",
+        "a":"Category 3",
+        "b":"Category 5",
+        "c":"Category 5e",
+        "d":"Category 10a",
+        "answer":"c",
+        "unit":3
+    },{
+        "question":"A network contains many fiber-optic connections. Which of the following does not belong in the fiber network?",
+        "a":"FC connector",
+        "b":"ST connector",
+        "c":"TOSLINK",
+        "d":"8P8C",
+        "answer":"d",
+        "unit":3
+    },{
+        "question":"When connecting 802.11a, 802.11b, and 802.11n wireless networks together, which wireless device will guarantee connectivity between these networks?",
+        "a":"Wireless network adapter",
+        "b":"Wireless hub",
+        "c":"Wireless router",
+        "d":"Wireless bridge",
+        "answer":"d",
+        "unit":3
+    },
+    {
+        "question":"You need to connect three new laptops to the wireless network “WLAN42.” It runs at a speed of 54 Mbps only and a frequency of 2.4 GHz only. Which IEEE 802.11 standard should be implemented when connecting the laptops to the WAP?",
+        "a":"802.11a",
+        "b":"802.11b",
+        "c":"802.11g",
+        "d":"802.11n",
+        "answer":"c",
+        "unit":3
+    },
+    {
+        "question":"A desktop computer needs to be connected to a WLAN using the strongest encryption type possible. Which of the following is the strongest?",
+        "a":"WEP",
+        "b":"RADIUS",
+        "c":"WPA2",
+        "d":"WPA",
+        "answer":"c",
+        "unit":3
+    },{
+        "question":"Thirteen PCs and laptops have been connected to a wireless network. To make the WLAN more secure, which of the following tasks disallows additional client access to the WAP?",
+        "a":"Enabling channel bonding",
+        "b":"Enabling frame aggregation",
+        "c":"Disabling SSID broadcasting",
+        "d":"Disabling WPA2",
+        "answer":"c",
+        "unit":3
+    },{
+        "question":"If a customer requires the installation of 284 computers on a single IP network, which IP class is the best option?",
+        "a":"Class A",
+        "b":"Class B",
+        "c":"Class C",
+        "d":"Class D",
+        "answer":"b",
+        "unit":4
+    },{
+        "question":"To set up three computers on a classful network with a default subnet mask of 255.0.0.0, which class should be used?",
+        "a":"Class A",
+        "b":"Class B",
+        "c":"Class C",
+        "d":"Class D",
+        "answer":"a",
+        "unit":4
+    },{
+        "question":"Proseware, Inc., needs to set up 100 computers on a private Class A network. Which of the following IP network numbers meets all the criteria for a private Class A network?",
+        "a":"100.10.1.0",
+        "b":"192.168.1.0",
+        "c":"172.16.0.0",
+        "d":"10.0.0.0",
+        "answer":"d",
+        "unit":4
+    },{
+        "question":"A 192.168.1.0 network needs to be subnetted using the 255.255.255.240 subnet mask. Which of the following is equal to 240 in binary?",
+        "a":"11100000",
+        "b":"11000000",
+        "c":"11110000",
+        "d":"10000000",
+        "answer":"c",
+        "unit":4
+    },{
+        "question":"You need to set up 14 separate IP networks that can each have up to 400 computers. Which IANA private IP range should be used?",
+        "a":"10.0.0.0–10.255.255.255",
+        "b":"172.16.0.0–172.31.255.255",
+        "c":"192.168.0.0–192.168.255.255",
+        "d":"169.254.0.0–169.254.255.255",
+        "answer":"b",
+        "unit":4
+    },{
+        "question":"A computer cannot obtain the proper IP address from a DHCP server. The ipconfig/all command shows that it has automatically obtained the address 169.254.67.110. Which of the following has occurred?",
+        "a":"The DHCP server has auto-assigned an IP address to the computer.",
+        "b":"APIPA has auto-assigned an IP address to the computer.",
+        "c":"A SOHO router has auto-assigned an IP address to the computer.",
+        "d":"The ISP has auto-assigned an IP address to the computer.",
+        "answer":"b",
+        "unit":4
+    },{
+        "question":"Which of the following represents the beginning of an IPv6 link-state address?",
+        "a":"127",
+        "b":"172",
+        "c":"2001",
+        "d":"FE80",
+        "answer":"d",
+        "unit":4
+    },{
+        "question":"A manager’s computer cannot connect to the Internet. Examine the following ipconfig results and select the best answer as to why this has occurred. IPv4 Address. . . . . . . . . . . : 10.254.254.1 Subnet Mask . . . . . . . . . . . : 255.255.255.0   Default Gateway . . . . . . . . . : 10.254.254.255",
+        "a":"The subnet mask is incorrect.",
+        "b":"The IP address is incorrect.",
+        "c":"The default gateway is incorrect.",
+        "d":"The subnet mask and the IP address are incorrect.",
+        "answer":"c",
+        "unit":4
+    },{
+        "question":"A device has been installed that has two IP addresses. One, 64.51.216.27, is displayed to the Internet. The other, 192.168.50.254, communicates with the LAN. Which type of technology has been implemented?",
+        "a":"Subnetting",
+        "b":"IPv6",
+        "c":"Network Address Translation",
+        "d":"Class A public IP address",
+        "answer":"c",
+        "unit":4
+    },{
+        "question":"When troubleshooting a network connectivity problem, the following command results appear. Which of the following commands generated these results? Request timed out. Request timed out.  Request timed out. Request timed out. Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),",
+        "a":"ipconfig",
+        "b":"netstat",
+        "c":"ping",
+        "d":"nbtstat",
+        "answer":"c",
+        "unit":5
+    },{
+        "question":"Which of the following commands should be used to find the MAC address of a Windows computer?",
+        "a":"ipconfig",
+        "b":"ipconfig /all",
+        "c":"ipconfig /release",
+        "d":"ipconfig /flushdns",
+        "answer":"b",
+        "unit":5
+    },{
+        "question":"Which of the following commands should be used to continuously ping a computer?",
+        "a":"ping -n",
+        "b":"ping -t",
+        "c":"ping -l",
+        "d":"ping 127.0.0.1",
+        "answer":"b",
+        "unit":5
+    },{
+        "question":"When troubleshooting a computer that cannot obtain the proper IP address from a DHCP server, which of the following commands should be used first?",
+        "a":"ipconfig /release",
+        "b":"ipconfig /renew",
+        "c":"ipconfig /displaydns",
+        "d":"ipconfig /source=dhcp",
+        "answer":"a",
+        "unit":5
+    },{
+        "question":"The following results appear in the Command Prompt window. Which command generated these results? Resolved By Broadcast =    Resolved By Name Server = 0        Registered By Broadcast = 9        Registered By Name Server = 0",
+        "a":"nbtstat -r",
+        "b":"nbtstat -RR",
+        "c":"nbtstat -R",
+        "d":"nbtstat -s",
+        "answer":"a",
+        "unit":5
+    },{
+        "question":"A computer can ping other computers but it cannot connect to websites. Examine the following ipconfig results and select the best explanation as to why this has occurred. IPv4 Address. . . . . . . . . . . : 10.254.254.1     Subnet Mask . . . . . . . . . . . : 255.255.255.0       Default Gateway . . . . . . . . . : 10.254.254.255  DNS Servers . . . . . . . . . . . : 127.0.0.1",
+        "a":"The subnet mask is incorrect.",
+        "b":"The IP address is incorrect.",
+        "c":"The default gateway is incorrect.",
+        "d":"The DNS server is incorrect.",
+        "answer":"d",
+        "unit":5
+    },{
+        "question":"When configuring IP addresses via DHCP, the Windows client fails to broadcast to all servers that it has accepted an IP address offer. Which step is this in the four-step DHCP process?",
+        "a":"Discovery",
+        "b":"Offering",
+        "c":"Request",
+        "d":"Acknowledge",
+        "answer":"c",
+        "unit":6
+    },{
+        "question":"As an administrator at Proseware, Inc., you are in charge of setting up a DHCP server to hand out IP addresses and other IP-related information. Which of the following cannot be  obtained from a DHCP server?",
+        "a":"IP address",
+        "b":"MAC address",
+        "c":"DNS server address",
+        "d":"Gateway address",
+        "answer":"b",
+        "unit":6
+    },{
+        "question":"Administrators at Proseware, Inc., want to scan servers for DHCP activity. Which ports  should they be looking for?",
+        "a":"53 and 54",
+        "b":"80 and 443",
+        "c":"20 and 21",
+        "d":"67 and 68",
+        "answer":"d",
+        "unit":6
+    },{
+        "question":"A coworker asks for help in analyzing a problem with a DHCP server. The server’s scope has been created and the IP range appears to be valid. Yet no clients are obtaining IP addresses. Which of the following could be the reason for this?",
+        "a":"The server was not authorized.",
+        "b":"The scope was not activated.",
+        "c":"The scope was not authorized.",
+        "d":"The server is down.",
+        "answer":"b",
+        "unit":6
+    },{
+        "question":"You want to set up a computer to acquire an IP address from a newly configured DHCP server. Which of the following is the best command to use?",
+        "a":"ping -n",
+        "b":"ipconfig /renew",
+        "c":"ipconfig /release",
+        "d":"ping -renew",
+        "answer":"b",
+        "unit":6
+    },{
+        "question":"A computer cannot obtain the proper IP address from a DHCP server. After running  ipconfig, the address 169.254.25.53 shows up in the results. Which service is assigning the IP address to the client?",
+        "a":"DHCP",
+        "b":"WINS",
+        "c":"APIPA",
+        "d":"DNS",
+        "answer":"c",
+        "unit":6
+    },{
+        "question":"After scanning the ports of a server, it is found that port 3389 is open. Which of the following can be deduced from this?",
+        "a":"The WINS service is running.",
+        "b":"The DNS service is running.",
+        "c":"Terminal Services is running.",
+        "d":"RRAS is running.",
+        "answer":"c",
+        "unit":6
+    },{
+        "question":"Which of the following is the proper tool to use to take control of a server remotely from  within the GUI of the client OS?",
+        "a":"Remote Desktop",
+        "b":"Telnet",
+        "c":"FTP",
+        "d":"SSH",
+        "answer":"a",
+        "unit":6
+    },{
+        "question":"A client wants to install a VPN server. Which of the following services should be chosen to  accomplish this?",
+        "a":"ESP",
+        "b":"AH",
+        "c":"SA",
+        "d":"IPv6",
+        "answer":"b",
+        "unit":6
+    },{
+        "question":"Which of the following protocols generates encryption and authentication keys that are used by IPsec?",
+        "a":"aaa",
+        "b":"bbb",
+        "c":"cccc",
+        "d":"dddd",
+        "answer":"c",
+        "unit":6
+    },{
+        "question":"Which command is used to connect to a server with an administrative session?",
+        "a":"mstsc.exe /AD",
+        "b":"mstsc.exe /a",
+        "c":"mstsc.exe /console",
+        "d":"mstsc.exe /admin ",
+        "answer":"d",
+        "unit":6
+    },{
+        "question":". In the Remote Desktop Connection options, which tab is used to access local drives on the remote computer?",
+        "a":"General",
+        "b":"Display",
+        "c":"Local Resources",
+        "d":"Advanced",
+        "answer":"c",
+        "unit":6
+    },{
+        "question":"You have been hired as an administrator to install several routing protocols to a group of routers. Which one of the following is not an example of a dynamic routing protocol?",
+        "a":"RIP",
+        "b":"IGRP",
+        "c":"RRAS",
+        "d":"OSPF",
+        "answer":"c",
+        "unit":7
+    },{
+        "question":"A server running Windows Server 2016 needs to have the latest version of RIP installed. Which version of RIP should be selected?",
+        "a":"Version 1",
+        "b":"Version 2",
+        "c":"Version 3",
+        "d":"RIP does not have any versions.",
+        "answer":"b",
+        "unit":7
+    },{
+        "question":"Proseware, Inc., needs to install a PAD (router) that will enable a packet-switched connection to the Internet. Which of the following is an example of packet switching technolog",
+        "a":"T1",
+        "b":"Frame Relay",
+        "c":"802.1X",
+        "d":"ATM",
+        "answer":"b",
+        "unit":7
+    },{
+        "question":"Which of the following is the best tool to use for installing a NAT server?",
+        "a":"DNS",
+        "b":"RIP",
+        "c":"ATM",
+        "d":"RRAS",
+        "answer":"d",
+        "unit":7
+    },{
+        "question":"The IT director wants to install a new demarc device. Which of the following is he referring to? (Choose the best answer.)",
+        "a":"A router",
+        "b":"A CSU/DSU",
+        "c":"A switch",
+        "d":"A server",
+        "answer":"b",
+        "unit":7
+    },{
+        "question":"As an administrator, you have been asked to troubleshoot a wide area networking technology that has a maximum data transfer rate of 64 Kbps. Which technology will you be troubleshooting?",
+        "a":"Frame Relay",
+        "b":"ATM",
+        "c":"X.25",
+        "d":"SONET",
+        "answer":"c",
+        "unit":7
+    },{
+        "question":"Which of the following devices is a PAD most similar to?",
+        "a":"Hub",
+        "b":"Switch",
+        "c":"Router",
+        "d":"CSU/DSU",
+        "answer":"c",
+        "unit":7
+    },{
+        "question":"Which of the following is the total speed or throughput of a T1 line?",
+        "a":"1.536 Mbps",
+        "b":"1.544 Mbps",
+        "c":"1.5 Mbps",
+        "d":"15.35 Mbps",
+        "answer":"b",
+        "unit":7
+    },{
+        "question":"A customer wants to install an ISDN line for videoconferencing. Which of the following should be installed?",
+        "a":"BRI",
+        "b":"ATM",
+        "c":"PRI",
+        "d":"OC3",
+        "answer":"c",
+        "unit":7
+    },{
+        "question":"A small business wants to ensure that its DSL Internet connection uploads and downloads the same amount of information per second. Which type of DSL should be installed?",
+        "a":"xDSL",
+        "b":"ADSL",
+        "c":"SDSL",
+        "d":"DSL Lite",
+        "answer":"c",
+        "unit":7
+    },{
+        "question":"Which of the following is used to ensure that time-sensitive packets are delivered promptly?",
+        "a":"Remote Assistance",
+        "b":"VPN Reconnect",
+        "c":"Quality of Service",
+        "d":"Connection Manager ",
+        "answer":"c",
+        "unit":7
+    },{
+        "question":"An authentication server is being set up on a DMZ that will allow only users from a partner company. Which type of network is being configured?",
+        "a":"Internet",
+        "b":"Intranet",
+        "c":"Extranet",
+        "d":"World Wide Web",
+        "answer":"c",
+        "unit":8
+    },{
+        "question":"When setting up a VPN that allows connections on inbound port 1723, which of the following tunneling protocols should be used",
+        "a":"PPTP",
+        "b":"PPP",
+        "c":"L2TP",
+        "d":"TCP/IP",
+        "answer":"a",
+        "unit":8
+    },{
+        "question":"Proseware, Inc., wants to set up a VPN server. Which of the following services in Windows Server 2016 should be used?",
+        "a":"FTP",
+        "b":"DNS",
+        "c":"RRAS",
+        "d":"IIS",
+        "answer":"c",
+        "unit":8
+    },{
+        "question":"The IT director wants to install a firewall. Which of the following is not a type of firewall?",
+        "a":"NAT filtering",
+        "b":"DMZ",
+        "c":"ALG",
+        "d":"Stateful packet inspection",
+        "answer":"b",
+        "unit":8
+    },{
+        "question":"An issue with one of the ports on the firewall is suspected. Which of the following is the appropriate tool to use to scan the ports?",
+        "a":"PPTP",
+        "b":"Protocol analyzer",
+        "c":"NMAP",
+        "d":"NIDS",
+        "answer":"c",
+        "unit":8
+    },{
+        "question":"A client wants a server installed that can cache web pages in order to increase the speed of commonly accessed websites. Which type of server is required?",
+        "a":"Proxy",
+        "b":"DNS",
+        "c":"Firewall",
+        "d":"VPN",
+        "answer":"a",
+        "unit":8
+    },{
+        "question":"A customer desires a device that can detect network anomalies and report them to an administrator. Which type of device is necessary?",
+        "a":"Internet content filter",
+        "b":"Proxy server",
+        "c":"WINS server",
+        "d":"NIDS",
+        "answer":"d",
+        "unit":8
+    },{
+        "question":"A manager wants to set up an area that is not on the LAN but not quite on the Internet. This area will house servers that will serve requests to users connecting to the intranet. Which type of network area or zone should be set up?",
+        "a":"DMZ",
+        "b":"Extranet",
+        "c":"FTP",
+        "d":"VPN",
+        "answer":"a",
+        "unit":8
+    },{
+        "question":"A client wants to install a VPN server that can offer unencrypted tunnels by default or encrypted tunnels by using IPsec. Which of the following services should be used?",
+        "a":"DNS",
+        "b":"L2TP",
+        "c":"WINS",
+        "d":"IPsec",
+        "answer":"b",
+        "unit":8
+    },{
+        "question":"After setting up a default VPN in Windows Server 2016, the supervisor is not satisfied with the level of security. She would rather have L2TP combined with IPsec. Which tunneling protocol is used with the default VPN settings and is less secure than L2TP with IPsec?",
+        "a":"RRAS",
+        "b":"L2TP without IPsec",
+        "c":"PPTP",
+        "d":"VPNv2",
+        "answer":"c",
+        "unit":8
+    },{
+        "question":"To use VPN Reconnect, which VPN protocol should be used?",
+        "a":"PPTP",
+        "b":"L2TP",
+        "c":"IKEv2",
+        "d":"SSTP",
+        "answer":"c",
+        "unit":8
+    },{
+        "question":". A client wants to use a Windows Server 2016 server as a VPN server. However, the networking team allows only HTTPS through the firewall. Which VPN protocol should be used?",
+        "a":"PPTP",
+        "b":"L2TP",
+        "c":"IKEv2",
+        "d":"SSTP",
+        "answer":"d",
+        "unit":8
+    },{
+        "question":"A client wants to use smart cards with the VPN. Which authentication protocol should be used?",
+        "a":"PAP",
+        "b":"CHAP",
+        "c":"MS-CHAPv2",
+        "d":"EAP",
+        "answer":"d",
+        "unit":8
+    },{
+        "question":"Which authentication protocol should not be used because it is the least secure?",
+        "a":"PAP",
+        "b":"CHAP",
+        "c":"MS-CHAPv2",
+        "d":"EAP",
+        "answer":"a",
+        "unit":8
+    },{
+        "question":"Which of the following describes the easiest way to set up a VPN client on a computer for a  user who is not technically savvy?",
+        "a":"Using a PAP",
+        "b":"Providing the user with step-by-step instructions and screen shots",
+        "c":"Using a group policy to configure the settings",
+        "d":"Using CMAK to create an executable to install",
+        "answer":"d",
+        "unit":8
+    }
+]

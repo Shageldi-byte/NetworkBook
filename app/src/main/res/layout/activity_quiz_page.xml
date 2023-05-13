@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/quiz_gradient_bg">
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_clear_24"
+                    app:tint="@color/black"
+                    />
+
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/progress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:progress="0"
+                    android:indeterminate="false"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    app:trackCornerRadius="12dp"
+                    app:trackThickness="10dp"
+                    app:indicatorColor="#F78B0A"
+                    />
+            </LinearLayout>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                app:lottie_rawRes="@raw/quiz"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:layout_marginTop="16dp"
+                android:text="What is Network?"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:fontFamily="@font/raleway_extrabold"
+                />
+
+            <TextView
+                android:id="@+id/pos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0 / 0"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                />
+
+
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0 / 0"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                />
+
+            <RelativeLayout
+                android:id="@+id/a_w"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginTop="12dp"
+                android:padding="18dp"
+                android:background="@drawable/quiz_gradient_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/a_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A variant"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/b_w"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginTop="22dp"
+                android:padding="18dp"
+                android:background="@drawable/quiz_gradient_button_passive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/b_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B variant"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary_light"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/c_w"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginTop="22dp"
+                android:padding="18dp"
+                android:background="@drawable/quiz_gradient_button_passive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/c_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C variant"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary_light"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/d_w"
+                android:layout_marginStart="22dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginTop="22dp"
+                android:padding="18dp"
+                android:background="@drawable/quiz_gradient_button_passive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/d_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D variant"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary_light"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indiki"
+                android:layout_margin="22dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/raleway_bold"
+                android:textSize="18sp"
+                app:icon="@drawable/ic_baseline_arrow_forward_ios_24"
+                app:iconGravity="textEnd"
+                app:iconPadding="12dp"
+                app:iconTint="@color/white"
+                />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jogabyny bilemok"
+                android:textSize="16sp"
+                android:layout_marginBottom="22dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+{
+    "theme": [
+        {
+            "title": "Introduction",
+            "start_pos": 16,
+            "end_pos": 17
+        },
+        {
+            "title": "Understanding Local Area Networking",
+            "start_pos": 18,
+            "end_pos": 59
+        },
+        {
+            "title": "Defining Networks with the OSI Model",
+            "start_pos": 60,
+            "end_pos": 90
+        },
+        {
+            "title": "Understanding Wired and Wireless Networks",
+            "start_pos": 92,
+            "end_pos": 118
+        },
+        {
+            "title": "Understanding Internet Protocol",
+            "start_pos": 120,
+            "end_pos": 163
+        },
+        {
+            "title": "Implementing TCP/IP in the Command Line",
+            "start_pos": 164,
+            "end_pos": 214
+        },
+        {
+            "title": "Working with  Networking Services",
+            "start_pos": 216,
+            "end_pos": 246
+        },
+        {
+            "title": "Understanding Wide Area Networks",
+            "start_pos": 248,
+            "end_pos": 275
+        },
+        {
+            "title": "Defining Network Infrastructures and Network Security",
+            "start_pos": 276,
+            "end_pos": 304
+        },
+        {
+            "title": "Answer Key",
+            "start_pos": 306,
+            "end_pos": 321
+        },
+        {
+            "title": "1587201011.pdf",
+            "start_pos": 1,
+            "end_pos": 74
+        },
+        {
+            "title": "269-301.pdf",
+            "start_pos": 1,
+            "end_pos": 33
+        },
+        {
+            "title": "BCA-221 Network Fundamentals.pdf",
+            "start_pos": 1,
+            "end_pos": 146
+        },
+        {
+            "title": "COMPUTER NETWORKS NOTES.pdf",
+            "start_pos": 1,
+            "end_pos": 311
+        },
+        {
+            "title": "ComputerNetworks.pdf",
+            "start_pos": 1,
+            "end_pos": 963
+        },
+        {
+            "title": "Computer-Networks--Introduction_Computer_Networking.pdf",
+            "start_pos": 1,
+            "end_pos": 23
+        },
+        {
+            "title": "data_communication_computer_network_tutorial.pdf",
+            "start_pos": 1,
+            "end_pos": 106
+        },
+        {
+            "title": "FULLTEXT01.pdf",
+            "start_pos": 1,
+            "end_pos": 118
+        },
+        {
+            "title": "lecs110.pdf",
+            "start_pos": 1,
+            "end_pos": 22
+        },
+        {
+            "title": "McGraw Hill - Networking a Beginners Guide 5 Edition (November 2009) (ATTiCA).pdf",
+            "start_pos": 1,
+            "end_pos": 449
+        },
+        {
+            "title": "Networking.pdf",
+            "start_pos": 1,
+            "end_pos": 553
+        },
+        {
+            "title": "networks.pdf",
+            "start_pos": 1,
+            "end_pos": 28
+        },
+        {
+            "title": "PGDCA201_slm.pdf",
+            "start_pos": 1,
+            "end_pos": 180
+        }
+    ]
+}
